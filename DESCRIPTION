@@ -2,15 +2,21 @@ Package: foofactor
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Young-Chan",
+           family = "Park",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "young.chan.park93@gmail.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
+Author: Young-Chan Park
+Maintainer: Young-Chan Park <young.chan.park93@gmail.com>
 Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+License: use_mit_license()
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    forcats
